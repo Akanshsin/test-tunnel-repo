@@ -1,0 +1,34 @@
+---
+globalTimeout: 90
+testSuiteTimeout: 90
+testSuiteStep: 90
+runson: linux
+autosplit: true
+retryOnFailure: true
+maxRetries: 2
+concurrency: 1
+dataJsonPath: ['src/datame.json', 'src/data1.json','me/data.json', 'data.json']
+pre:
+  - java -version
+  - pwd
+  - python key.py ${PAT}
+  - mvn -Dmaven.repo.local=m2_cache_dir -Dmaven.test.skip=true install
+mergeArtifacts: true
+stripParentDirectory: true
+taskIdentifierInNonConflictingArtefacts: true
+post:
+  - cat hyperexecute_performance_linux.yaml
+jobLabel: [ '${DATE} - ${DAY}', 'Performance Job']
+version: "0.1"
+testRunnerCommand: mvn test -Dcucumber.options="src/main/java/Features/googlesearch.feature:18" -Dscenario="src/main/java/Features/googlesearch.feature:18" -Dmaven.repo.local=m2_cache_dir
+cacheKey: '{{ checksum "pom.xml" }}'
+cacheDirectories:
+  - m2_cache_dir
+env:
+   PAT: ${{ .secrets.Token }}
+   Performance: "Yes"
+captureCSVResult: true
+performance:
+  rate: 10
+  count: 50
+  testNamePrefix: Cucumbertest--

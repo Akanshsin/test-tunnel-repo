@@ -1,0 +1,31 @@
+---
+globalTimeout: 90
+testSuiteTimeout: 90
+testSuiteStep: 90
+runson: win
+autosplit: true
+concurrency: 1
+pre:
+  - java -version
+  - pwd
+  - mvn -Dmaven.repo.local=m2_cache_dir -Dmaven.test.skip=true install
+uploadArtefacts:
+ - name: src
+   path:
+     - src/**
+post:
+  - cat hyperexecute_win.yaml
+version: "0.1"
+testDiscovery:
+  type: raw
+  mode: static
+  command:  snooper --featureFilePaths=src/main/**/ --frameWork=java --ignoredTags=@tunnel | sed -n 1,'2p'
+testRunnerCommand: mvn test `-Dcucumber.options="$test" `-Dscenario="$test" `-Dmaven.repo.local=m2_cache_dir
+cacheKey: '{{ checksum "pom.xml" }}'
+cacheDirectories:
+  - m2_cache_dir
+jobLabels:
+  - cucumber-java
+  - linux
+  - target-directory
+  - static

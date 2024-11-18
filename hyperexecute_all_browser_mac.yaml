@@ -1,0 +1,46 @@
+---
+globalTimeout: 90
+testSuiteTimeout: 90
+testSuiteStep: 90
+matrix:
+  os: [mac]
+  browser: ["Chrome","Firefox","Safari","Edge"]
+  version: ["latest", "beta", "dev", "canary"]
+exclusionMatrix:
+  - browser: ["Chrome","Firefox","Safari"]
+    version: ["beta", "dev", "canary"]
+runson: ${matrix.os}
+autosplit: true
+retryOnFailure: true
+maxRetries: 2
+concurrency: 1
+parallelism: 1
+pre:
+  - java -version
+  - pwd
+  - python3 key.py ${PAT}
+  - mvn -Dmaven.repo.local=m2_cache_dir -Dmaven.test.skip=true install
+uploadArtefacts:
+ - name: Files
+   path:
+     - Files/**
+ - name: src
+   path:
+     - src/**
+mergeArtifacts: true
+stripParentDirectory: true
+taskIdentifierInNonConflictingArtefacts: true
+post:
+  - cat hyperexecute_mac.yaml
+jobLabel: [ '${DATE} - ${DAY}', "cucumber-java", "All Browser version resolution selenium", "mac" ]
+version: "0.1"
+testDiscovery:
+  type: raw
+  mode: dynamic
+  command:  snooper --featureFilePaths=src/main/**/ --frameWork=java --specificTags=@Addition
+testRunnerCommand: mvn test -Dcucumber.options="$test" -Dscenario="$test" -Dmaven.repo.local=m2_cache_dir -Dbrowser=$browser -Dversion=$version
+cacheKey: '{{ checksum "pom.xml" }}'
+cacheDirectories:
+  - m2_cache_dir
+env:
+   PAT: ${{ .secrets.Token }}

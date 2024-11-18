@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 5.903 s <<< FAILURE! - in TestSuite
+feature(MyRunner.TestRunner)  Time elapsed: 0.197 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.ExceptionInInitializerError
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+Caused by: java.lang.ExceptionInInitializerError
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.Comparator java.util.TreeMap.comparator accessible: module java.base does not "opens java.util" to unnamed module @4c278787
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+
+feature(MyRunner.TestRunner)  Time elapsed: 0.029 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+
+feature(MyRunner.TestRunner)  Time elapsed: 0.025 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+
+feature(MyRunner.TestRunner)  Time elapsed: 0.023 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+
+feature(MyRunner.TestRunner)  Time elapsed: 0.02 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+
+feature(MyRunner.TestRunner)  Time elapsed: 0.018 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+
+feature(MyRunner.TestRunner)  Time elapsed: 0.022 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+

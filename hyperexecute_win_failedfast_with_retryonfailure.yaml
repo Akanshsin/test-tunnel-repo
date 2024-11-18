@@ -1,0 +1,45 @@
+---
+globalTimeout: 90
+testSuiteTimeout: 90
+testSuiteStep: 90
+runson: win
+autosplit: true
+retryOnFailure: true
+maxRetries: 2
+concurrency: 2
+pre:
+  - java -version
+  - pwd
+  - python key.py %PAT%
+  - mvn -Dmaven.repo.local=m2_cache_dir -Dmaven.test.skip=true install
+uploadArtefacts:
+ - name: Files
+   path:
+     - Files/**
+ - name: src
+   path:
+     - src/**
+mergeArtifacts: true
+stripParentDirectory: true
+taskIdentifierInNonConflictingArtefacts: true
+post:
+  - cat hyperexecute_win.yaml
+jobLabel: [ '${DATE} - ${DAY}', "cucumber-java", "win", "failed-fast-with-retry-on-failure"  ]
+version: "0.1"
+failFast:
+  maxNumberOfTests: 2
+testDiscovery:
+  type: raw
+  mode: dynamic
+  command:  snooper --featureFilePaths=src/main/**/ --frameWork=java --specificTags=@general_test
+testRunnerCommand: mvn test `-Dcucumber.options="$test" `-Dscenario="$test" `-Dmaven.repo.local=m2_cache_dir -Dfailedfast="yes"
+cacheKey: '{{ checksum "pom.xml" }}'
+cacheDirectories:
+  - m2_cache_dir
+env:
+   PAT: ${{ .secrets.Token }}
+report: true
+partialReports:
+ location: target/cucumber-reports
+ type: json
+ frameworkName: cucumber

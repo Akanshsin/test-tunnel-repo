@@ -1,0 +1,29 @@
+---
+globalTimeout: 90
+testSuiteTimeout: 90
+testSuiteStep: 90
+runson: linux
+autosplit: true
+retryOnFailure: true
+maxRetries: 2
+concurrency: 7
+dataJsonPath: ['src/datame.json', 'src/name.json']
+pre:
+  - java -version
+  - pwd
+  - mvn -Dmaven.repo.local=m2_cache_dir -Dmaven.test.skip=true install
+
+stripParentDirectory: true
+taskIdentifierInNonConflictingArtefacts: true
+post:
+  - cat hyperexecute_linux.yaml
+jobLabel: [ '${DATE} - ${DAY}', "cucumber-java", "linux", "multiple-data" ]
+version: "0.1"
+testDiscovery:
+  type: raw
+  mode: dynamic
+  command:  snooper --featureFilePaths=src/main/**/ --frameWork=java --specificTags=@general_test
+testRunnerCommand: echo $test
+cacheKey: '{{ checksum "pom.xml" }}'
+cacheDirectories:
+  - m2_cache_dir

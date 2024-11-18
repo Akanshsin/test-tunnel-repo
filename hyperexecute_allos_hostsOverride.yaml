@@ -1,0 +1,39 @@
+---
+globalTimeout: 150
+testSuiteTimeout: 150
+testSuiteStep: 150
+matrix:
+  os: [win,win11,mac,linux]
+  browser: ["chrome"]
+  version: ["latest"]
+  selenium_version: [4.23.0]
+runson: ${matrix.os}
+retryOnFailure: false
+combineTasksInMatrixMode: true
+concurrency: 4
+pre:
+  - curl -vvv https://www.google.com/
+  - java -version
+  - pwd
+uploadArtefacts:
+  - name: Files
+    path:
+      - Files/**
+  - name: src
+    path:
+      - src/**
+mergeArtifacts: true
+stripParentDirectory: true
+taskIdentifierInNonConflictingArtefacts: true
+post:
+  - cat custom_hyperexecute.yaml
+jobLabel: [ '${DATE}', "All OS hostsOverride" ]
+version: "0.1"
+testSuites:
+  - mvn test -Dbrowser=$browser -Dversion=$version -Dselenium_version=$selenium_version -Dcucumber.options="src/main/java/Features/googlesearch.feature:61" -Dscenario="src/main/java/Features/googlesearch.feature:61" -Dmaven.repo.local=m2_cache_dir
+cacheKey: '{{ checksum "pom.xml" }}'
+cacheDirectories:
+  - m2_cache_dir
+hostsOverride: 
+  - host: www.google.com 
+    ip: 127.0.0.2

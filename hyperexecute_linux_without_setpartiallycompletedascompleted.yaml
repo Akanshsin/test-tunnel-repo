@@ -1,0 +1,42 @@
+---
+globalTimeout: 90
+testSuiteTimeout: 90
+testSuiteStep: 90
+runson: linux
+autosplit: true
+retryOnFailure: false
+concurrency: 2
+pre:
+  - java -version
+  - pwd
+  - python key.py %PAT%
+  - mvn -Dmaven.repo.local=m2_cache_dir -Dmaven.test.skip=true install
+uploadArtefacts:
+ - name: Files
+   path:
+     - Files/**
+ - name: src
+   path:
+     - src/**
+mergeArtifacts: true
+stripParentDirectory: true
+taskIdentifierInNonConflictingArtefacts: true
+post:
+  - cat hyperexecute_win.yaml
+jobLabel: [ '${DATE} - ${DAY}' ]
+version: "0.1"
+testDiscovery:
+  type: raw
+  mode: dynamic
+  command:  snooper --featureFilePaths=src/main/**/ --frameWork=java --specificTags=@general_test | sed -n 1,'2p'
+testRunnerCommand: echo $test
+cacheKey: '{{ checksum "pom.xml" }}'
+cacheDirectories:
+  - m2_cache_dir
+env:
+   PAT: ${{ .secrets.Token }}
+report: true
+partialReports:
+ location: target/cucumber-reports
+ type: json
+ frameworkName: cucumber

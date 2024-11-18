@@ -1,0 +1,31 @@
+---
+globalTimeout: 90
+testSuiteTimeout: 90
+testSuiteStep: 90
+runson: linux
+autosplit: true
+retryOnFailure: true
+maxRetries: 2
+concurrency: 3
+pre:
+  - java -version
+  - pwd
+  - mvn -Dmaven.repo.local=m2_cache_dir -Dmaven.test.skip=true install
+uploadArtefacts:
+ - name: Files
+   path:
+     - Files/**
+ - name: src
+   path:
+     - src/**
+stripParentDirectory: true
+post:
+  - cat hyperexecute_linux_binaryCheck.yaml
+jobLabel: [ '${DATE} - ${DAY}', "cucumber-java", "linux", "binary_check"  ]
+version: "0.1"
+testDiscovery:
+  type: raw
+  mode: static
+  command:  snooper --featureFilePaths=src/main/**/ --frameWork=java --specificTags=@tunnel
+testRunnerCommand: mvn test -Dcucumber.options="$test" -Dscenario="$test" -Dmaven.repo.local=m2_cache_dir
+cacheKey: '{{ checksum "pom.xml" }}'

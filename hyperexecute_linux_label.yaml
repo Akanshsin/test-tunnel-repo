@@ -1,0 +1,21 @@
+---
+globalTimeout: 90
+testSuiteTimeout: 90
+testSuiteStep: 90
+runson: linux
+autosplit: true
+retryOnFailure: true
+maxRetries: 2
+concurrency: 1
+pre:
+  - java -version
+  - pwd
+post:
+  - cat hyperexecute_linux_label.yaml
+version: "0.1"
+testDiscovery:
+  type: raw
+  mode: dynamic
+  command:  snooper --featureFilePaths=src/main/**/ --frameWork=java --specificTags=@dummy
+testRunnerCommand: echo labels_test
+jobLabel: [ "cucumber-java", "linux", "label" ]

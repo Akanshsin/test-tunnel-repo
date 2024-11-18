@@ -1,0 +1,1860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="5.903" tests="7" errors="0" skipped="0" failures="7">
+  <properties>
+    <property name="LT_ACCESS_KEY" value="TFVjVl2ReUnesamC9yemA8Mzwr3P5vSsCrEWdPYns2kZbDRl8J"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="Os" value="windows 10"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/lambdatest/Documents/Cucumber-TestNG-Selenium_DELL2/target/test-classes:/Users/lambdatest/Documents/Cucumber-TestNG-Selenium_DELL2/target/classes:/Users/lambdatest/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/lambdatest/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/lambdatest/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/lambdatest/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar:/Users/lambdatest/.m2/repository/org/seleniumhq/selenium/selenium-java/3.11.0/selenium-java-3.11.0.jar:/Users/lambdatest/.m2/repository/org/seleniumhq/selenium/selenium-api/3.11.0/selenium-api-3.11.0.jar:/Users/lambdatest/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.11.0/selenium-chrome-driver-3.11.0.jar:/Users/lambdatest/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.11.0/selenium-edge-driver-3.11.0.jar:/Users/lambdatest/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.11.0/selenium-firefox-driver-3.11.0.jar:/Users/lambdatest/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.11.0/selenium-ie-driver-3.11.0.jar:/Users/lambdatest/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.11.0/selenium-opera-driver-3.11.0.jar:/Users/lambdatest/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0.jar:/Users/lambdatest/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.11.0/selenium-safari-driver-3.11.0.jar:/Users/lambdatest/.m2/repository/org/seleniumhq/selenium/selenium-support/3.11.0/selenium-support-3.11.0.jar:/Users/lambdatest/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/Users/lambdatest/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/lambdatest/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/lambdatest/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/lambdatest/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/lambdatest/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/Users/lambdatest/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/lambdatest/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/lambdatest/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/lambdatest/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/lambdatest/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/lambdatest/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/lambdatest/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/lambdatest/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/lambdatest/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/lambdatest/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/lambdatest/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/lambdatest/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/lambdatest/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/lambdatest/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/Users/lambdatest/.m2/repository/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar:/Users/lambdatest/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/lambdatest/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/lambdatest/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/lambdatest/.m2/repository/net/masterthought/cucumber-reporting/3.8.0/cucumber-reporting-3.8.0.jar:/Users/lambdatest/.m2/repository/org/apache/logging/log4j/log4j-api/2.6/log4j-api-2.6.jar:/Users/lambdatest/.m2/repository/org/apache/logging/log4j/log4j-core/2.6/log4j-core-2.6.jar:/Users/lambdatest/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.5/jackson-databind-2.8.5.jar:/Users/lambdatest/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar:/Users/lambdatest/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.5/jackson-core-2.8.5.jar:/Users/lambdatest/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/Users/lambdatest/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/lambdatest/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/Users/lambdatest/.m2/repository/velocity-tools/velocity-tools/1.4/velocity-tools-1.4.jar:/Users/lambdatest/.m2/repository/joda-time/joda-time/2.9.6/joda-time-2.9.6.jar:/Users/lambdatest/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/lambdatest/.m2/repository/net/lingala/zip4j/zip4j/1.3.2/zip4j-1.3.2.jar:/Users/lambdatest/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar:/Users/lambdatest/.m2/repository/org/jsoup/jsoup/1.10.1/jsoup-1.10.1.jar:/Users/lambdatest/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20160924.1/owasp-java-html-sanitizer-20160924.1.jar:/Users/lambdatest/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.21.0/surefire-testng-utils-2.21.0.jar:/Users/lambdatest/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="LT_USERNAME" value="mayurtaging"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/17.0.1_1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/lambdatest/Documents/Cucumber-TestNG-Selenium_DELL2/target/surefire/surefirebooter16448979012356068369.jar /Users/lambdatest/Documents/Cucumber-TestNG-Selenium_DELL2/target/surefire 2022-03-23T14-24-06_564-jvmRun1 surefire2004860437098892399tmp surefire_07799153778895925470tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/lambdatest/Documents/Cucumber-TestNG-Selenium_DELL2/target/test-classes:/Users/lambdatest/Documents/Cucumber-TestNG-Selenium_DELL2/target/classes:/Users/lambdatest/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/lambdatest/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/lambdatest/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/lambdatest/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar:/Users/lambdatest/.m2/repository/org/seleniumhq/selenium/selenium-java/3.11.0/selenium-java-3.11.0.jar:/Users/lambdatest/.m2/repository/org/seleniumhq/selenium/selenium-api/3.11.0/selenium-api-3.11.0.jar:/Users/lambdatest/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.11.0/selenium-chrome-driver-3.11.0.jar:/Users/lambdatest/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.11.0/selenium-edge-driver-3.11.0.jar:/Users/lambdatest/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.11.0/selenium-firefox-driver-3.11.0.jar:/Users/lambdatest/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.11.0/selenium-ie-driver-3.11.0.jar:/Users/lambdatest/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.11.0/selenium-opera-driver-3.11.0.jar:/Users/lambdatest/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0.jar:/Users/lambdatest/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.11.0/selenium-safari-driver-3.11.0.jar:/Users/lambdatest/.m2/repository/org/seleniumhq/selenium/selenium-support/3.11.0/selenium-support-3.11.0.jar:/Users/lambdatest/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/Users/lambdatest/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/lambdatest/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/lambdatest/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/lambdatest/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/lambdatest/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/Users/lambdatest/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/lambdatest/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/lambdatest/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/lambdatest/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/lambdatest/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/lambdatest/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/lambdatest/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/lambdatest/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/lambdatest/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/lambdatest/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/lambdatest/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/lambdatest/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/lambdatest/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/lambdatest/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/Users/lambdatest/.m2/repository/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar:/Users/lambdatest/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/lambdatest/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/lambdatest/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/lambdatest/.m2/repository/net/masterthought/cucumber-reporting/3.8.0/cucumber-reporting-3.8.0.jar:/Users/lambdatest/.m2/repository/org/apache/logging/log4j/log4j-api/2.6/log4j-api-2.6.jar:/Users/lambdatest/.m2/repository/org/apache/logging/log4j/log4j-core/2.6/log4j-core-2.6.jar:/Users/lambdatest/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.5/jackson-databind-2.8.5.jar:/Users/lambdatest/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar:/Users/lambdatest/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.5/jackson-core-2.8.5.jar:/Users/lambdatest/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/Users/lambdatest/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/lambdatest/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/Users/lambdatest/.m2/repository/velocity-tools/velocity-tools/1.4/velocity-tools-1.4.jar:/Users/lambdatest/.m2/repository/joda-time/joda-time/2.9.6/joda-time-2.9.6.jar:/Users/lambdatest/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/lambdatest/.m2/repository/net/lingala/zip4j/zip4j/1.3.2/zip4j-1.3.2.jar:/Users/lambdatest/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar:/Users/lambdatest/.m2/repository/org/jsoup/jsoup/1.10.1/jsoup-1.10.1.jar:/Users/lambdatest/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20160924.1/owasp-java-html-sanitizer-20160924.1.jar:/Users/lambdatest/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.21.0/surefire-testng-utils-2.21.0.jar:/Users/lambdatest/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/lambdatest"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/17.0.1_1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/lambdatest/Documents/Cucumber-TestNG-Selenium_DELL2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/lambdatest/Documents/Cucumber-TestNG-Selenium_DELL2/target/surefire/surefirebooter16448979012356068369.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.1+1"/>
+    <property name="user.name" value="lambdatest"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.4"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/lambdatest/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/ls/bz_s7byx5xz9fykryswpd0cr0000gn/T/"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="/Users/lambdatest/Documents/Cucumber-TestNG-Selenium_DELL2"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/lambdatest/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="17.0.1+1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="feature" classname="MyRunner.TestRunner" time="0.197">
+    <failure message="java.lang.ExceptionInInitializerError" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.ExceptionInInitializerError
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+Caused by: java.lang.ExceptionInInitializerError
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.Comparator java.util.TreeMap.comparator accessible: module java.base does not "opens java.util" to unnamed module @4c278787
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+</failure>
+    <system-out><![CDATA[@feature7
+Feature: Data json feature
+
+  @data1
+  Scenario: Open Url & from json1        &amp#27;[90m# data.feature:5&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.ExceptionInInitializerError
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(data.feature:6)
+      Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.Comparator java.util.TreeMap.comparator accessible: module java.base does not "opens java.util" to unnamed module @4c278787
+      	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354)
+      	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+      	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178)
+      	at java.base/java.lang.reflect.Field.setAccessible(Field.java:172)
+      	at cucumber.deps.com.thoughtworks.xstream.core.util.Fields.locate(Fields.java:39)
+      	at cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter.<clinit>(TreeMapConverter.java:50)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mopen url from context json&amp#27;[0m      &amp#27;[90m# ToDoStepDefinition.open_url()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m               &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @data2
+  Scenario: Open Url from json2          &amp#27;[90m# data.feature:11&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(data.feature:12)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mopen url from context json&amp#27;[0m      &amp#27;[90m# ToDoStepDefinition.open_url()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m               &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @data3
+  Scenario: Open Url from json3          &amp#27;[90m# data.feature:17&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(data.feature:18)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mopen url from context json&amp#27;[0m      &amp#27;[90m# ToDoStepDefinition.open_url()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m               &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @data4
+  Scenario: Open Url from json4          &amp#27;[90m# data.feature:23&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(data.feature:24)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mopen url from context json&amp#27;[0m      &amp#27;[90m# ToDoStepDefinition.open_url()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m               &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @data5
+  Scenario: Open Url from json5          &amp#27;[90m# data.feature:29&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(data.feature:30)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mopen url from context json&amp#27;[0m      &amp#27;[90m# ToDoStepDefinition.open_url()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m               &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="feature" classname="MyRunner.TestRunner" time="0.029">
+    <failure message="java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+</failure>
+    <system-out><![CDATA[Feature: Check addition in Google calculator
+   In order to verify that google calculator work correctly
+   As a user of google
+   I should be able to get correct addition result
+
+  @Addition @me
+  Scenario: Addition                     &amp#27;[90m# googlesearch_1.feature:8&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(googlesearch_1.feature:9)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI open google&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.I_open_google()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter "&amp#27;[0m&amp#27;[36m&amp#27;[1m2+2&amp#27;[0m&amp#27;[36m" in search textbox&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.I_enter_in_search_textbox(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get result as "&amp#27;[0m&amp#27;[36m&amp#27;[1m4&amp#27;[0m&amp#27;[36m"&amp#27;[0m      &amp#27;[90m# ToDoStepDefinition.I_should_get_correct_result(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m               &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @Subtraction
+  Scenario: Subtraction                                    &amp#27;[90m# googlesearch_1.feature:16&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(googlesearch_1.feature:17)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI open google&amp#27;[0m                                     &amp#27;[90m# ToDoStepDefinition.I_open_google()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter "&amp#27;[0m&amp#27;[36m&amp#27;[1m5-2&amp#27;[0m&amp#27;[36m" in search textbox&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.I_enter_in_search_textbox(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get result as "&amp#27;[0m&amp#27;[36m&amp#27;[1m3&amp#27;[0m&amp#27;[36m"&amp#27;[0m                        &amp#27;[90m# ToDoStepDefinition.I_should_get_correct_result(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get internet speed and sample todo check&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.I_should_get_Internet_speed()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m                                 &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @Multiplication
+  Scenario: Multiplication                                 &amp#27;[90m# googlesearch_1.feature:25&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(googlesearch_1.feature:26)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI open google&amp#27;[0m                                     &amp#27;[90m# ToDoStepDefinition.I_open_google()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter "&amp#27;[0m&amp#27;[36m&amp#27;[1m2*2&amp#27;[0m&amp#27;[36m" in search textbox&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.I_enter_in_search_textbox(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get result as "&amp#27;[0m&amp#27;[36m&amp#27;[1m4&amp#27;[0m&amp#27;[36m"&amp#27;[0m                        &amp#27;[90m# ToDoStepDefinition.I_should_get_correct_result(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get internet speed and sample todo check&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.I_should_get_Internet_speed()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m                                 &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @Division
+  Scenario: Division                                       &amp#27;[90m# googlesearch_1.feature:34&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(googlesearch_1.feature:35)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI open google&amp#27;[0m                                     &amp#27;[90m# ToDoStepDefinition.I_open_google()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter "&amp#27;[0m&amp#27;[36m&amp#27;[1m8/2&amp#27;[0m&amp#27;[36m" in search textbox&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.I_enter_in_search_textbox(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get result as "&amp#27;[0m&amp#27;[36m&amp#27;[1m4&amp#27;[0m&amp#27;[36m"&amp#27;[0m                        &amp#27;[90m# ToDoStepDefinition.I_should_get_correct_result(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get internet speed and sample todo check&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.I_should_get_Internet_speed()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m                                 &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @Modulus
+  Scenario: Modulus                                        &amp#27;[90m# googlesearch_1.feature:43&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(googlesearch_1.feature:44)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI open google&amp#27;[0m                                     &amp#27;[90m# ToDoStepDefinition.I_open_google()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter "&amp#27;[0m&amp#27;[36m&amp#27;[1m9%2&amp#27;[0m&amp#27;[36m" in search textbox&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.I_enter_in_search_textbox(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get result as "&amp#27;[0m&amp#27;[36m&amp#27;[1m1&amp#27;[0m&amp#27;[36m"&amp#27;[0m                        &amp#27;[90m# ToDoStepDefinition.I_should_get_correct_result(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get internet speed and sample todo check&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.I_should_get_Internet_speed()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m                                 &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="feature" classname="MyRunner.TestRunner" time="0.025">
+    <failure message="java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+</failure>
+    <system-out><![CDATA[@feature3
+Feature: Check addition in Google calculator
+   In order to verify that google calculator work correctly
+   As a user of google
+   I should be able to get correct addition result
+
+  @Addition
+  Scenario: Addition                                       &amp#27;[90m# googlesearch_2.feature:8&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(googlesearch_2.feature:9)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI open google&amp#27;[0m                                     &amp#27;[90m# ToDoStepDefinition.I_open_google()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter "&amp#27;[0m&amp#27;[36m&amp#27;[1m2+2&amp#27;[0m&amp#27;[36m" in search textbox&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.I_enter_in_search_textbox(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get result as "&amp#27;[0m&amp#27;[36m&amp#27;[1m4&amp#27;[0m&amp#27;[36m"&amp#27;[0m                        &amp#27;[90m# ToDoStepDefinition.I_should_get_correct_result(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get internet speed and sample todo check&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.I_should_get_Internet_speed()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m                                 &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @Subtraction
+  Scenario: Subtraction                                    &amp#27;[90m# googlesearch_2.feature:17&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(googlesearch_2.feature:18)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI open google&amp#27;[0m                                     &amp#27;[90m# ToDoStepDefinition.I_open_google()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter "&amp#27;[0m&amp#27;[36m&amp#27;[1m5-2&amp#27;[0m&amp#27;[36m" in search textbox&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.I_enter_in_search_textbox(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get result as "&amp#27;[0m&amp#27;[36m&amp#27;[1m3&amp#27;[0m&amp#27;[36m"&amp#27;[0m                        &amp#27;[90m# ToDoStepDefinition.I_should_get_correct_result(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get internet speed and sample todo check&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.I_should_get_Internet_speed()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m                                 &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @Multiplication
+  Scenario: Multiplication                                 &amp#27;[90m# googlesearch_2.feature:26&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(googlesearch_2.feature:27)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI open google&amp#27;[0m                                     &amp#27;[90m# ToDoStepDefinition.I_open_google()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter "&amp#27;[0m&amp#27;[36m&amp#27;[1m2*2&amp#27;[0m&amp#27;[36m" in search textbox&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.I_enter_in_search_textbox(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get result as "&amp#27;[0m&amp#27;[36m&amp#27;[1m4&amp#27;[0m&amp#27;[36m"&amp#27;[0m                        &amp#27;[90m# ToDoStepDefinition.I_should_get_correct_result(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get internet speed and sample todo check&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.I_should_get_Internet_speed()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m                                 &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @Division
+  Scenario: Division                                       &amp#27;[90m# googlesearch_2.feature:35&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(googlesearch_2.feature:36)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI open google&amp#27;[0m                                     &amp#27;[90m# ToDoStepDefinition.I_open_google()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter "&amp#27;[0m&amp#27;[36m&amp#27;[1m8/2&amp#27;[0m&amp#27;[36m" in search textbox&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.I_enter_in_search_textbox(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get result as "&amp#27;[0m&amp#27;[36m&amp#27;[1m4&amp#27;[0m&amp#27;[36m"&amp#27;[0m                        &amp#27;[90m# ToDoStepDefinition.I_should_get_correct_result(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get internet speed and sample todo check&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.I_should_get_Internet_speed()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m                                 &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @Modulus
+  Scenario: Modulus                                        &amp#27;[90m# googlesearch_2.feature:44&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(googlesearch_2.feature:45)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI open google&amp#27;[0m                                     &amp#27;[90m# ToDoStepDefinition.I_open_google()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter "&amp#27;[0m&amp#27;[36m&amp#27;[1m9%2&amp#27;[0m&amp#27;[36m" in search textbox&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.I_enter_in_search_textbox(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get result as "&amp#27;[0m&amp#27;[36m&amp#27;[1m1&amp#27;[0m&amp#27;[36m"&amp#27;[0m                        &amp#27;[90m# ToDoStepDefinition.I_should_get_correct_result(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get internet speed and sample todo check&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.I_should_get_Internet_speed()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m                                 &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="feature" classname="MyRunner.TestRunner" time="0.023">
+    <failure message="java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+</failure>
+    <system-out><![CDATA[@feature4
+Feature: Check addition in Google calculator
+   In order to verify that google calculator work correctly
+   As a user of google
+   I should be able to get correct addition result
+
+  @Addition
+  Scenario: Addition                                       &amp#27;[90m# googlesearch_3.feature:8&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(googlesearch_3.feature:9)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI open google&amp#27;[0m                                     &amp#27;[90m# ToDoStepDefinition.I_open_google()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter "&amp#27;[0m&amp#27;[36m&amp#27;[1m2+2&amp#27;[0m&amp#27;[36m" in search textbox&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.I_enter_in_search_textbox(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get result as "&amp#27;[0m&amp#27;[36m&amp#27;[1m4&amp#27;[0m&amp#27;[36m"&amp#27;[0m                        &amp#27;[90m# ToDoStepDefinition.I_should_get_correct_result(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get internet speed and sample todo check&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.I_should_get_Internet_speed()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m                                 &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @Subtraction
+  Scenario: Subtraction                                    &amp#27;[90m# googlesearch_3.feature:17&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(googlesearch_3.feature:18)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI open google&amp#27;[0m                                     &amp#27;[90m# ToDoStepDefinition.I_open_google()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter "&amp#27;[0m&amp#27;[36m&amp#27;[1m5-2&amp#27;[0m&amp#27;[36m" in search textbox&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.I_enter_in_search_textbox(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get result as "&amp#27;[0m&amp#27;[36m&amp#27;[1m3&amp#27;[0m&amp#27;[36m"&amp#27;[0m                        &amp#27;[90m# ToDoStepDefinition.I_should_get_correct_result(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get internet speed and sample todo check&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.I_should_get_Internet_speed()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m                                 &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @Multiplication
+  Scenario: Multiplication                                 &amp#27;[90m# googlesearch_3.feature:26&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(googlesearch_3.feature:27)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI open google&amp#27;[0m                                     &amp#27;[90m# ToDoStepDefinition.I_open_google()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter "&amp#27;[0m&amp#27;[36m&amp#27;[1m2*2&amp#27;[0m&amp#27;[36m" in search textbox&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.I_enter_in_search_textbox(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get result as "&amp#27;[0m&amp#27;[36m&amp#27;[1m4&amp#27;[0m&amp#27;[36m"&amp#27;[0m                        &amp#27;[90m# ToDoStepDefinition.I_should_get_correct_result(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get internet speed and sample todo check&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.I_should_get_Internet_speed()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m                                 &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @Division
+  Scenario: Division                                       &amp#27;[90m# googlesearch_3.feature:35&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(googlesearch_3.feature:36)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI open google&amp#27;[0m                                     &amp#27;[90m# ToDoStepDefinition.I_open_google()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter "&amp#27;[0m&amp#27;[36m&amp#27;[1m8/2&amp#27;[0m&amp#27;[36m" in search textbox&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.I_enter_in_search_textbox(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get result as "&amp#27;[0m&amp#27;[36m&amp#27;[1m4&amp#27;[0m&amp#27;[36m"&amp#27;[0m                        &amp#27;[90m# ToDoStepDefinition.I_should_get_correct_result(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get internet speed and sample todo check&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.I_should_get_Internet_speed()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m                                 &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @Modulus
+  Scenario: Modulus                                        &amp#27;[90m# googlesearch_3.feature:44&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(googlesearch_3.feature:45)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI open google&amp#27;[0m                                     &amp#27;[90m# ToDoStepDefinition.I_open_google()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter "&amp#27;[0m&amp#27;[36m&amp#27;[1m9%2&amp#27;[0m&amp#27;[36m" in search textbox&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.I_enter_in_search_textbox(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get result as "&amp#27;[0m&amp#27;[36m&amp#27;[1m1&amp#27;[0m&amp#27;[36m"&amp#27;[0m                        &amp#27;[90m# ToDoStepDefinition.I_should_get_correct_result(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get internet speed and sample todo check&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.I_should_get_Internet_speed()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m                                 &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="feature" classname="MyRunner.TestRunner" time="0.02">
+    <failure message="java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+</failure>
+    <system-out><![CDATA[@feature5
+Feature: Check addition in Google calculator
+   In order to verify that google calculator work correctly
+   As a user of google
+   I should be able to get correct addition result
+
+  @Addition
+  Scenario: Addition                                       &amp#27;[90m# googlesearch_4.feature:8&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(googlesearch_4.feature:9)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI open google&amp#27;[0m                                     &amp#27;[90m# ToDoStepDefinition.I_open_google()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter "&amp#27;[0m&amp#27;[36m&amp#27;[1m2+2&amp#27;[0m&amp#27;[36m" in search textbox&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.I_enter_in_search_textbox(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get result as "&amp#27;[0m&amp#27;[36m&amp#27;[1m4&amp#27;[0m&amp#27;[36m"&amp#27;[0m                        &amp#27;[90m# ToDoStepDefinition.I_should_get_correct_result(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get internet speed and sample todo check&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.I_should_get_Internet_speed()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m                                 &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @Subtraction
+  Scenario: Subtraction                                    &amp#27;[90m# googlesearch_4.feature:17&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(googlesearch_4.feature:18)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI open google&amp#27;[0m                                     &amp#27;[90m# ToDoStepDefinition.I_open_google()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter "&amp#27;[0m&amp#27;[36m&amp#27;[1m5-2&amp#27;[0m&amp#27;[36m" in search textbox&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.I_enter_in_search_textbox(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get result as "&amp#27;[0m&amp#27;[36m&amp#27;[1m3&amp#27;[0m&amp#27;[36m"&amp#27;[0m                        &amp#27;[90m# ToDoStepDefinition.I_should_get_correct_result(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get internet speed and sample todo check&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.I_should_get_Internet_speed()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m                                 &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @Multiplication
+  Scenario: Multiplication                                 &amp#27;[90m# googlesearch_4.feature:26&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(googlesearch_4.feature:27)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI open google&amp#27;[0m                                     &amp#27;[90m# ToDoStepDefinition.I_open_google()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter "&amp#27;[0m&amp#27;[36m&amp#27;[1m2*2&amp#27;[0m&amp#27;[36m" in search textbox&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.I_enter_in_search_textbox(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get result as "&amp#27;[0m&amp#27;[36m&amp#27;[1m4&amp#27;[0m&amp#27;[36m"&amp#27;[0m                        &amp#27;[90m# ToDoStepDefinition.I_should_get_correct_result(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get internet speed and sample todo check&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.I_should_get_Internet_speed()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m                                 &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @Division
+  Scenario: Division                                       &amp#27;[90m# googlesearch_4.feature:35&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(googlesearch_4.feature:36)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI open google&amp#27;[0m                                     &amp#27;[90m# ToDoStepDefinition.I_open_google()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter "&amp#27;[0m&amp#27;[36m&amp#27;[1m8/2&amp#27;[0m&amp#27;[36m" in search textbox&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.I_enter_in_search_textbox(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get result as "&amp#27;[0m&amp#27;[36m&amp#27;[1m4&amp#27;[0m&amp#27;[36m"&amp#27;[0m                        &amp#27;[90m# ToDoStepDefinition.I_should_get_correct_result(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get internet speed and sample todo check&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.I_should_get_Internet_speed()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m                                 &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @Modulus
+  Scenario: Modulus                                        &amp#27;[90m# googlesearch_4.feature:44&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(googlesearch_4.feature:45)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI open google&amp#27;[0m                                     &amp#27;[90m# ToDoStepDefinition.I_open_google()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter "&amp#27;[0m&amp#27;[36m&amp#27;[1m9%2&amp#27;[0m&amp#27;[36m" in search textbox&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.I_enter_in_search_textbox(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get result as "&amp#27;[0m&amp#27;[36m&amp#27;[1m1&amp#27;[0m&amp#27;[36m"&amp#27;[0m                        &amp#27;[90m# ToDoStepDefinition.I_should_get_correct_result(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get internet speed and sample todo check&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.I_should_get_Internet_speed()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m                                 &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="feature" classname="MyRunner.TestRunner" time="0.018">
+    <failure message="java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+</failure>
+    <system-out><![CDATA[@feature6
+Feature: Check addition in Google calculator
+   In order to verify that google calculator work correctly
+   As a user of google
+   I should be able to get correct addition result
+
+  @Addition
+  Scenario: Addition                                       &amp#27;[90m# googlesearch_5.feature:8&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(googlesearch_5.feature:9)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI open google&amp#27;[0m                                     &amp#27;[90m# ToDoStepDefinition.I_open_google()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter "&amp#27;[0m&amp#27;[36m&amp#27;[1m2+2&amp#27;[0m&amp#27;[36m" in search textbox&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.I_enter_in_search_textbox(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get result as "&amp#27;[0m&amp#27;[36m&amp#27;[1m4&amp#27;[0m&amp#27;[36m"&amp#27;[0m                        &amp#27;[90m# ToDoStepDefinition.I_should_get_correct_result(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get internet speed and sample todo check&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.I_should_get_Internet_speed()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m                                 &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @Subtraction
+  Scenario: Subtraction                                    &amp#27;[90m# googlesearch_5.feature:17&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(googlesearch_5.feature:18)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI open google&amp#27;[0m                                     &amp#27;[90m# ToDoStepDefinition.I_open_google()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter "&amp#27;[0m&amp#27;[36m&amp#27;[1m5-2&amp#27;[0m&amp#27;[36m" in search textbox&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.I_enter_in_search_textbox(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get result as "&amp#27;[0m&amp#27;[36m&amp#27;[1m3&amp#27;[0m&amp#27;[36m"&amp#27;[0m                        &amp#27;[90m# ToDoStepDefinition.I_should_get_correct_result(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get internet speed and sample todo check&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.I_should_get_Internet_speed()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m                                 &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @Multiplication
+  Scenario: Multiplication                                 &amp#27;[90m# googlesearch_5.feature:26&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(googlesearch_5.feature:27)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI open google&amp#27;[0m                                     &amp#27;[90m# ToDoStepDefinition.I_open_google()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter "&amp#27;[0m&amp#27;[36m&amp#27;[1m2*2&amp#27;[0m&amp#27;[36m" in search textbox&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.I_enter_in_search_textbox(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get result as "&amp#27;[0m&amp#27;[36m&amp#27;[1m4&amp#27;[0m&amp#27;[36m"&amp#27;[0m                        &amp#27;[90m# ToDoStepDefinition.I_should_get_correct_result(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get internet speed and sample todo check&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.I_should_get_Internet_speed()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m                                 &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @Division
+  Scenario: Division                                       &amp#27;[90m# googlesearch_5.feature:35&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(googlesearch_5.feature:36)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI open google&amp#27;[0m                                     &amp#27;[90m# ToDoStepDefinition.I_open_google()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter "&amp#27;[0m&amp#27;[36m&amp#27;[1m8/2&amp#27;[0m&amp#27;[36m" in search textbox&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.I_enter_in_search_textbox(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get result as "&amp#27;[0m&amp#27;[36m&amp#27;[1m4&amp#27;[0m&amp#27;[36m"&amp#27;[0m                        &amp#27;[90m# ToDoStepDefinition.I_should_get_correct_result(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get internet speed and sample todo check&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.I_should_get_Internet_speed()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m                                 &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @Modulus
+  Scenario: Modulus                                        &amp#27;[90m# googlesearch_5.feature:44&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(googlesearch_5.feature:45)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI open google&amp#27;[0m                                     &amp#27;[90m# ToDoStepDefinition.I_open_google()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter "&amp#27;[0m&amp#27;[36m&amp#27;[1m9%2&amp#27;[0m&amp#27;[36m" in search textbox&amp#27;[0m                   &amp#27;[90m# ToDoStepDefinition.I_enter_in_search_textbox(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get result as "&amp#27;[0m&amp#27;[36m&amp#27;[1m1&amp#27;[0m&amp#27;[36m"&amp#27;[0m                        &amp#27;[90m# ToDoStepDefinition.I_should_get_correct_result(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get internet speed and sample todo check&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.I_should_get_Internet_speed()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m                                 &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="feature" classname="MyRunner.TestRunner" time="0.022">
+    <failure message="java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+	at MyRunner.TestRunner.feature(TestRunner.java:36)
+</failure>
+    <system-out><![CDATA[Feature: Add new item to ToDO list
+
+  @sample1
+  Scenario: Lambdatest ToDO test 1       &amp#27;[90m# todo.feature:4&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(todo.feature:5)
+      &amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mselect First Item&amp#27;[0m               &amp#27;[90m# ToDoStepDefinition.select_first_item()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mselect second item&amp#27;[0m              &amp#27;[90m# ToDoStepDefinition.select_second_item()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36madd new item&amp#27;[0m                    &amp#27;[90m# ToDoStepDefinition.add_new_item()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mverify added item&amp#27;[0m               &amp#27;[90m# ToDoStepDefinition.verify_added_item()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUpdate the result&amp#27;[0m               &amp#27;[90m# ToDoStepDefinition.update_result()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m               &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @sample2
+  Scenario: Lambdatest ToDO test 2       &amp#27;[90m# todo.feature:14&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(todo.feature:15)
+      &amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mselect First Item&amp#27;[0m               &amp#27;[90m# ToDoStepDefinition.select_first_item()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mselect second item&amp#27;[0m              &amp#27;[90m# ToDoStepDefinition.select_second_item()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36madd new item&amp#27;[0m                    &amp#27;[90m# ToDoStepDefinition.add_new_item()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mverify added item&amp#27;[0m               &amp#27;[90m# ToDoStepDefinition.verify_added_item()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUpdate the result&amp#27;[0m               &amp#27;[90m# ToDoStepDefinition.update_result()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m               &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @sample3
+  Scenario: Open Url from json1          &amp#27;[90m# todo.feature:24&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(todo.feature:25)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mopen url from context json&amp#27;[0m      &amp#27;[90m# ToDoStepDefinition.open_url()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m               &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @sample3
+  Scenario: Open Url from json2          &amp#27;[90m# todo.feature:30&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(todo.feature:31)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mopen url from context json&amp#27;[0m      &amp#27;[90m# ToDoStepDefinition.open_url()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m               &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @sample3
+  Scenario: Open Url from json3          &amp#27;[90m# todo.feature:36&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(todo.feature:37)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mopen url from context json&amp#27;[0m      &amp#27;[90m# ToDoStepDefinition.open_url()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m               &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @sample3
+  Scenario: Open Url from json4          &amp#27;[90m# todo.feature:42&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(todo.feature:43)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mopen url from context json&amp#27;[0m      &amp#27;[90m# ToDoStepDefinition.open_url()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m               &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+
+  @sample3
+  Scenario: Open Url from json5          &amp#27;[90m# todo.feature:48&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI launch Session on lambdatest&amp#27;[0m &amp#27;[90m# ToDoStepDefinition.user_already_on_home_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at MyRunner.TestRunner.feature(TestRunner.java:36)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+      	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+      	at org.testng.TestRunner.run(TestRunner.java:505)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+      	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given I launch Session on lambdatest(todo.feature:49)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mopen url from context json&amp#27;[0m      &amp#27;[90m# ToDoStepDefinition.open_url()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m               &amp#27;[90m# ToDoStepDefinition.close_the_browser()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

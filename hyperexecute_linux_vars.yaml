@@ -1,0 +1,44 @@
+---
+globalTimeout: 90
+testSuiteTimeout: 90
+testSuiteStep: 90
+runson: linux
+autosplit: true
+retryOnFailure: true
+maxRetries: 2
+concurrency: 2
+dataJsonPath: ['src/datame.json', 'src/data1.json','me/data.json', 'data.json']
+pre:
+  - java -version
+  - ${vars_key}
+  - mvn -Dmaven.repo.local=m2_cache_dir -Dmaven.test.skip=true install
+uploadArtefacts:
+ - name: Files
+   path:
+     - Files/**
+ - name: src
+   path:
+     - ${vars_key}/**
+mergeArtifacts: true
+stripParentDirectory: true
+taskIdentifierInNonConflictingArtefacts: true
+post:
+  - ${vars_key}
+  - cat hyperexecute_win.yaml
+jobLabel: [ '${DATE} - ${DAY}', '${vars_key}']
+version: "0.1"
+testDiscovery:
+  type: raw
+  mode: dynamic
+  command:  snooper --featureFilePaths=src/main/**/ --frameWork=java --specificTags=@general_test ${vars_key} | sed -n 1,'2p'
+testRunnerCommand: mvn test -Dcucumber.options="$test" -Dscenario="$test" -Dmaven.repo.local=m2_cache_dir; echo ${vars_key}
+cacheKey: '{{ checksum "pom.xml" }}'
+cacheDirectories:
+  - m2_cache_dir
+env:
+   PAT: ${{ .secrets.Token }}
+report: true
+partialReports:
+ location: ${vars_key}/cucumber-reports
+ type: json
+ frameworkName: cucumber

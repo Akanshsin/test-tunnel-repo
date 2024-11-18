@@ -1,0 +1,43 @@
+---
+globalTimeout: 90
+testSuiteTimeout: 90
+testSuiteStep: 90
+matrix:
+  os: [win]
+  browser: ["Chrome","Firefox","edge"]
+  version: ["latest", "beta", "dev", "canary"]
+  selenium_version: [ "4.16.0", "4.17.0", "4.18.0", "4.19.0", "4.20.0", "4.21.0" ]
+exclusionMatrix:
+  - browser: ["Chrome","Firefox"]
+    version: ["beta", "dev", "canary"]
+runson: ${matrix.os}
+concurrency: 6
+combineTasksInMatrixMode: true
+retryOnFailure: true
+maxRetries: 2
+pre:
+  - java -version
+  - pwd
+  - python key.py %PAT%
+  - mvn -Dmaven.repo.local=m2_cache_dir -Dmaven.test.skip=true install
+uploadArtefacts:
+ - name: Files
+   path:
+     - Files/**
+ - name: src
+   path:
+     - src/**
+mergeArtifacts: true
+stripParentDirectory: true
+taskIdentifierInNonConflictingArtefacts: true
+post:
+  - cat hyperexecute_win.yaml
+jobLabel: [ 'exclusionMatrix', "cucumber-java", "seleniumv4", "win" ]
+version: "0.1"
+testSuites:
+  - mvn test `-Dbrowser=$browser `-Dversion=$version `-Dresolution=$resolution `-Dselenium_version=$selenium_version `-Dcucumber.options="src/main/java/Features/googlesearch.feature:61" `-Dscenario="src/main/java/Features/googlesearch.feature:61" `-Dmaven.repo.local=m2_cache_dir
+cacheKey: '{{ checksum "pom.xml" }}'
+cacheDirectories:
+  - m2_cache_dir
+env:
+   PAT: ${{ .secrets.Token }}

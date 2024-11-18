@@ -1,0 +1,43 @@
+[
+  
+  {
+    "ClientName": "oxford",
+    "BrandName": "UC",
+    "SiteId": "ABCED",
+    "SubDomain": "oxford-uppercanada",
+    "Tags": [ "@A", "@B", "@C" ],
+    "Accounts": [
+      {
+        "AccessLevel": "1",
+        "Email": "abcd@email.com",
+        "Password": "pass_1",
+        "ProfileName": "Test UpperCanada"
+      },
+      {
+        "AccessLevel": "1",
+        "Email": "efgh@gmail.com",
+        "Password": "pass_2",
+        "ProfileName": "test test"
+      }
+    ]
+  },
+  {
+    "ClientName": "oxford",
+    "BrandName": "Oxford",
+    "SiteId": "BR-01",
+    "SubDomain": "oxford-b2c-marketplace"
+  },
+  {
+    "ClientName": "oxfordplus",
+    "BrandName": "Oxford",
+    "SiteId": "BR-02",
+    "SubDomain": "oxford-rewards-ca"
+  },
+  {
+    "ClientName": "abercrombie",
+    "BrandName": "Abercrombie & Fitch",
+    "SiteId": "BR-03",
+    "SubDomain": "eudomain"
+  }
+  
+]

@@ -1,0 +1,50 @@
+---
+globalTimeout: 90
+testSuiteTimeout: 90
+testSuiteStep: 90
+runson: win11
+autosplit: true
+retryOnFailure: true
+maxRetries: 2
+concurrency: 1
+dataJsonPath: [ 'src/datame.json', 'src/data1.json','me/data.json', 'data.json' ]
+tunnelNames: [ "hyptunnel_win11" ]
+tunnelOpts:
+  global: true
+  args: ["--server-domain hts-eastus.hyperexecute.cloud"]
+
+pre:
+  - java -version
+  - curl -o local.html http://127.0.0.1:8000/
+  - cat local.html
+  - curl https://ipinfo.io/
+  - pwd
+  - python key.py %PAT%
+  - mvn -Dmaven.repo.local=m2_cache_dir -Dmaven.test.skip=true install
+uploadArtefacts:
+  - name: Files
+    path:
+      - Files/**
+  - name: src
+    path:
+      - src/**
+mergeArtifacts: true
+stripParentDirectory: true
+taskIdentifierInNonConflictingArtefacts: true
+post:
+  - cat hyperexecute_win_shared_tunnel.yaml
+  - curl -o local.html http://127.0.0.1:8000/
+  - cat local.html
+  - curl https://ipinfo.io/
+jobLabel: [ '${DATE} - ${DAY}', "cucumber-java", "win11", "shared-tunnel" ]
+version: "0.1"
+testDiscovery:
+  type: raw
+  mode: dynamic
+  command: snooper --featureFilePaths=src/main/**/ --frameWork=java --specificTags=@tunnel
+testRunnerCommand: mvn test `-Dcucumber.options="$test" `-Dscenario="$test" `-Dmaven.repo.local=m2_cache_dir
+cacheKey: '{{ checksum "pom.xml" }}'
+cacheDirectories:
+  - m2_cache_dir
+env:
+  PAT: ${{ .secrets.Token }}

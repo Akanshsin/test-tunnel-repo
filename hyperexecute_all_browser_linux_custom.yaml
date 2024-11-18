@@ -1,0 +1,36 @@
+---
+globalTimeout: 150
+testSuiteTimeout: 150
+testSuiteStep: 150
+matrix:
+  os: [linux]
+  browser: [ setbrowsers ]
+  version: [ setversions ]
+  resolution: [ setresolution ]
+  selenium_version: [ setseleniumversions ]
+runson: ${matrix.os}
+retryOnFailure: false
+combineTasksInMatrixMode: true
+concurrency: 5
+pre:
+  - java -version
+  - pwd
+uploadArtefacts:
+  - name: Files
+    path:
+      - Files/**
+  - name: src
+    path:
+      - src/**
+mergeArtifacts: true
+stripParentDirectory: true
+taskIdentifierInNonConflictingArtefacts: true
+post:
+  - cat custom_hyperexecute.yaml
+jobLabel: [ '${DATE}', "cucumber-java", "All Browser version resolution selenium", "linux"]
+version: "0.1"
+testSuites:
+  - mvn test -Dbrowser=$browser -Dversion=$version -Dresolution=$resolution -Dselenium_version=$selenium_version -Dcucumber.options="src/main/java/Features/googlesearch.feature:61" -Dscenario="src/main/java/Features/googlesearch.feature:61" -Dmaven.repo.local=m2_cache_dir -DBrowserVerify=true
+cacheKey: '{{ checksum "pom.xml" }}'
+cacheDirectories:
+  - m2_cache_dir

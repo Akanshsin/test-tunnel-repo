@@ -1,0 +1,29 @@
+---
+globalTimeout: 90
+testSuiteTimeout: 90
+testSuiteStep: 90
+runson: linux
+autosplit: true
+retryOnFailure: true
+maxRetries: 2
+concurrency: 2
+dataJsonPath: ['src/corrupt_data.json']
+pre:
+  - java -version
+  - pwd
+  - mvn -Dmaven.repo.local=m2_cache_dir -Dmaven.test.skip=true install
+
+stripParentDirectory: true
+taskIdentifierInNonConflictingArtefacts: true
+post:
+  - cat hyperexecute_linux.yaml
+jobLabel: [ '${DATE} - ${DAY}', "cucumber-java", "linux", "invalid-data-json" ]
+version: "0.1"
+testDiscovery:
+  type: raw
+  mode: static
+  command:  snooper --featureFilePaths=src/main/**/ --frameWork=java --specificTags=@general_test
+testRunnerCommand: mvn test -Dcucumber.options="$test" -Dscenario="$test" -Dmaven.repo.local=m2_cache_dir
+cacheKey: '{{ checksum "pom.xml" }}'
+cacheDirectories:
+  - m2_cache_dir
