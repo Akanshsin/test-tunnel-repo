@@ -9,7 +9,7 @@ maxRetries: 2
 concurrency: 1
 dataJsonPath: [ 'src/datame.json', 'src/data1.json','me/data.json', 'data.json' ]
 tunnel: true
-tunnelNames: [ "hyptunnel_mac-Akansh" ]
+tunnelNames: [ "hyptunnel_linux-Akansh" ]
 tunnelOpts:
   systemProxy: true
 
