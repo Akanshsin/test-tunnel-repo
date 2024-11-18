@@ -8,7 +8,7 @@ retryOnFailure: true
 maxRetries: 2
 concurrency: 1
 #dataJsonPath: [ 'src/datame.json', 'src/data1.json','me/data.json', 'data.json' ]
-tunnelNames: [ "hyptunnel_linux-Akansh", "hyptunnel_linux-Akansh-1"]
+tunnelNames: [ "hyptunnel_linux-Akansh", "ddd-Akansh-1"]
 tunnel: true
 tunnelOpts:
   global: true
