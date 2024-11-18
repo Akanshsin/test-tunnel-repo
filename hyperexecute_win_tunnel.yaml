@@ -18,7 +18,6 @@ pre:
   - curl -o local.html http://127.0.0.1:8000/
   - cat local.html
   - curl https://ipinfo.io/
-  - cd cucumber-java
   - pwd
   - ls -lrt
  # - python key.py %PAT%
@@ -43,8 +42,8 @@ version: "0.1"
 testDiscovery:
   type: raw
   mode: dynamic
-  command: cd cucumber-java & snooper --featureFilePaths=src/main/**/ --frameWork=java --specificTags=@tunnel
-testRunnerCommand: cd cucumber-java & mvn test `-Dcucumber.options="$test" `-Dscenario="$test"
+  command: snooper --featureFilePaths=src/main/**/ --frameWork=java --specificTags=@tunnel
+testRunnerCommand: mvn test `-Dcucumber.options="$test" `-Dscenario="$test"
 # cacheKey: '{{ checksum "pom.xml" }}'
 # cacheDirectories:
 #   - m2_cache_dir
