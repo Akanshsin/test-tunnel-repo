@@ -7,20 +7,19 @@ autosplit: true
 retryOnFailure: true
 maxRetries: 2
 concurrency: 1
-#dataJsonPath: [ 'src/datame.json', 'src/data1.json','me/data.json', 'data.json' ]
-#tunnelNames: ["${TUNNEL_NAME}"]
-# tunnel: true
-# tunnelOpts:
-#   global: true
+dataJsonPath: [ 'src/datame.json', 'src/data1.json','me/data.json', 'data.json' ]
+tunnelNames: ["hyptunnel_mac-2024-workflow"]
+tunnel: true
+tunnelOpts:
+  global: true
 
 pre:
   - java -version
-  #- curl -o local.html http://127.0.0.1:8000/
-  #- cat local.html
-  #- curl https://ipinfo.io/
+  - curl -o local.html http://127.0.0.1:8000/
+  - cat local.html
+  - curl https://ipinfo.io/
   - pwd
   - ls -lrt
-  - echo %TUNNEL_NAME%
  # - python key.py %PAT%
   - mvn -Dmaven.test.skip=true install
 uploadArtefacts:
@@ -50,4 +49,3 @@ testRunnerCommand: mvn test `-Dcucumber.options="$test" `-Dscenario="$test"
 #   - m2_cache_dir
 env:
   PAT: ${{ .secrets.Token }}
-  TUNNEL_NAME: ${{.secrets.TUNNEL_NAME}}
