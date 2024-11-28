@@ -8,7 +8,7 @@ retryOnFailure: true
 maxRetries: 2
 concurrency: 1
 #dataJsonPath: [ 'src/datame.json', 'src/data1.json','me/data.json', 'data.json' ]
-tunnelNames: [%PAT%]
+tunnelNames: ["${TUNNEL_NAME}"]
 tunnel: true
 tunnelOpts:
   global: true
