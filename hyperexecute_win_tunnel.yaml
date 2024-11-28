@@ -8,7 +8,7 @@ retryOnFailure: true
 maxRetries: 2
 concurrency: 1
 #dataJsonPath: [ 'src/datame.json', 'src/data1.json','me/data.json', 'data.json' ]
-tunnelNames: [ "hyptunnel_linux-Akansh", "ddd-Akansh-1"]
+tunnelNames: [%TUNNEL_NAME%]
 tunnel: true
 tunnelOpts:
   global: true
@@ -49,3 +49,4 @@ testRunnerCommand: mvn test `-Dcucumber.options="$test" `-Dscenario="$test"
 #   - m2_cache_dir
 env:
   PAT: ${{ .secrets.Token }}
+  TUNNEL_NAME: ${{.secrets.TUNNEL_NAME}}
