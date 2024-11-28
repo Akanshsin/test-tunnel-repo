@@ -15,9 +15,9 @@ concurrency: 1
 
 pre:
   - java -version
-  - curl -o local.html http://127.0.0.1:8000/
-  - cat local.html
-  - curl https://ipinfo.io/
+  #- curl -o local.html http://127.0.0.1:8000/
+  #- cat local.html
+  #- curl https://ipinfo.io/
   - pwd
   - ls -lrt
   - echo %TUNNEL_NAME%
