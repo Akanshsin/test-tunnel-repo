@@ -8,7 +8,7 @@ retryOnFailure: true
 maxRetries: 2
 concurrency: 1
 #dataJsonPath: [ 'src/datame.json', 'src/data1.json','me/data.json', 'data.json' ]
-tunnelNames: [${TUNNEL_NAME}]
+tunnelNames: [%PAT%]
 tunnel: true
 tunnelOpts:
   global: true
@@ -20,6 +20,7 @@ pre:
   - curl https://ipinfo.io/
   - pwd
   - ls -lrt
+  - echo %TUNNEL_NAME%
  # - python key.py %PAT%
   - mvn -Dmaven.test.skip=true install
 uploadArtefacts:
